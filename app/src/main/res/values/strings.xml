@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Njord - Just The Weather</string>
+    <string name="preference_file_key">preference_file_key</string>
+    <string name="persisten_lat_long">persistent_lat_long</string>
+    <string name="local_weather_data">local_weather_model</string>
+    <string name="ui_degrees">°C</string>
+    <string name="system_alert">Alert</string>
+    <string name="button_request_permission">Request permissions</string>
+    <string name="formatter_hours">HH a</string>
+    <string name="formatter_days">EEEE</string>
+    <string name="request_units">metric</string>
+    <string name="request_weather_api_key">8d6af583d74df7d30ad52b2f0f6f9c8f</string>
+    <string name="system_request_permissions">This app needs to have location permissions enabled. Please activate them!</string>
+    <string name="system_no_internet">Failed to fetch new weather data. Check your internet connection</string>
+    <string name="system_no_location">Failed to retrieve location. Check your location settings and permissions</string>
+
+    //Backgrounds
+    <string name="background_clear">#81d4fa</string>
+    <string name="background_thunder">#fff176</string>
+    <string name="background_rain">#039be5</string>
+    <string name="background_snow">#eeeeee</string>
+    <string name="background_haze">#9e9e9e</string>
+    <string name="background_smoke">#607d8b</string>
+    <string name="background_clouds">#b0bec5</string>
+</resources>

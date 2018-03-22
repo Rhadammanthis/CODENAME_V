@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_next_days_forecast_time"
+        android:layout_marginStart="50sp"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+
+    <com.github.pwittchen.weathericonview.WeatherIconView
+        android:id="@+id/icon_view_next_days_forecast_weather"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        custom:weatherIconColor="@color/white"
+        custom:weatherIconResource="@string/wi_day_sunny_overcast"
+        custom:weatherIconSize="20" />
+
+    <TextView
+        android:id="@+id/text_next_days_forecast_temperature"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
